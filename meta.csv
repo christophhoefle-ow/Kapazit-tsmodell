@@ -1,0 +1,17 @@
+Schluessel,Wert
+erstellt_utc,2026-11-18 13:06
+pipeline_version,0.1.0
+git_commit,lokal
+daten_von_tag,2026-11-16
+daten_bis_tag,2026-11-16
+tage_mit_daten,1
+tage_vollstaendig,0
+schwelle_hoch,0.8
+schwelle_ueberlast,1.0
+jao_datensatz,finalComputation
+sgm_release,202603 – 9. Release
+zuordnung_alias,0
+zuordnung_eic,377
+zuordnung_name,12
+zuordnung_offen,45
+hinweis,"BEISPIELDATEN: nur 1 Stunde (16.11.2026 00:00-01:00 Uhr, Testdatei des Projektteams) - noch kein Echtlauf der Pipeline"

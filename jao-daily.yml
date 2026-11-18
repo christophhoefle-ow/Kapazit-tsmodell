@@ -1,0 +1,84 @@
+name: JAO-Auslastung abrufen
+
+# Täglich abends (UTC), bewusst NICHT im Veröffentlichungsfenster am Vormittag (JAO-Leitfaden, Kap. 4.1).
+# Von Hand startbar mit Datumsangaben, um einen Zeitraum nachzuholen:
+#   Actions -> "JAO-Auslastung abrufen" -> Run workflow -> Felder ausfüllen.
+on:
+  schedule:
+    - cron: "15 20 * * *"
+  workflow_dispatch:
+    inputs:
+      from_date:
+        description: "Nachholen ab (JJJJ-MM-TT). Leer = fehlende Tage der letzten 7 Tage automatisch"
+        required: false
+        type: string
+      to_date:
+        description: "Nachholen bis (JJJJ-MM-TT). Leer = heute"
+        required: false
+        type: string
+      force:
+        description: "Auch bereits vollständige Tage neu abrufen"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jao-daily
+  cancel-in-progress: false      # nie zwei Abrufe gleichzeitig (JAO: Anfragen nacheinander)
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Abhängigkeiten installieren
+        run: pip install -r requirements.txt
+
+      - name: Tests
+        run: python -m pytest -q
+
+      - name: JAO abrufen
+        id: fetch
+        continue-on-error: true          # bereits geholte Tage sollen trotzdem gespeichert werden
+        env:
+          JAO_API_TOKEN: ${{ secrets.JAO_API_TOKEN }}      # optional
+          FROM_DATE: ${{ inputs.from_date }}
+          TO_DATE: ${{ inputs.to_date }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          ARGS=""
+          if [ -n "$FROM_DATE" ]; then ARGS="--from $FROM_DATE"; fi
+          if [ -n "$TO_DATE" ];   then ARGS="$ARGS --to $TO_DATE"; fi
+          if [ "$FORCE" = "true" ]; then ARGS="$ARGS --force"; fi
+          python scripts/fetch_jao.py $ARGS
+
+      - name: Lieferdateien für Excel bauen
+        run: python scripts/build_processed.py
+
+      - name: Änderungen speichern
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/interim data/processed
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen"
+          else
+            git commit -m "Daten: JAO-Auslastung aktualisiert ($(date -u +%F))"
+            git push
+          fi
+
+      - name: Fehler sichtbar machen
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo "::error::Mindestens ein Tag konnte nicht abgerufen werden - Protokoll im Schritt 'JAO abrufen' lesen"
+          exit 1

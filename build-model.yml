@@ -1,0 +1,41 @@
+name: Excel-Modell bauen
+
+# Erzeugt aus den aktuellen CSV-Dateien zwei Modell-Dateien zum Herunterladen (Weg 3 im Blatt Lies_mich):
+#   Kapazitaetsmodell_DE_V3_aktualisierbar.xlsx  mit eingebauten Datenverbindungen, Adresse = dieses Repository (muss öffentlich lesbar sein)
+#   Kapazitaetsmodell_DE_V3.xlsx                 ohne Verbindungen (Momentaufnahme)
+# Excel rechnet die Formeln beim Öffnen automatisch. Download: Actions -> Lauf öffnen -> Artefakt 'Kapazitaetsmodell'.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 5 * * 1"           # montags 05:00 UTC
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Tests
+        run: python -m pytest -q
+
+      - name: Modell erzeugen (mit und ohne Datenverbindungen)
+        run: |
+          BASE="https://raw.githubusercontent.com/${{ github.repository }}/${{ github.event.repository.default_branch }}/data/processed/"
+          python scripts/build_excel_model.py --out build/Kapazitaetsmodell_DE_V3_aktualisierbar.xlsx --base-url "$BASE"
+          python scripts/build_excel_model.py --out build/Kapazitaetsmodell_DE_V3.xlsx --no-connections
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Kapazitaetsmodell
+          path: build/*.xlsx
+          retention-days: 30

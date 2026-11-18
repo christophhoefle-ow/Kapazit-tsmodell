@@ -1,0 +1,1 @@
+BEISPIELDATEN: nur 1 Stunde (16.11.2026 00:00-01:00 Uhr, Testdatei des Projektteams) - noch kein Echtlauf der Pipeline

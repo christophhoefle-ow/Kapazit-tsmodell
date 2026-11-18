@@ -1,0 +1,26 @@
+# Zentrale Einstellungen der Daten-Pipeline.
+# Änderungen hier wirken auf alle Skripte und Workflows – bitte per Pull Request ändern.
+
+jao:
+  # Basisadresse der JAO-Publication-Tool-API (Core-Region); Stand JAO-Leitfaden v1.0 (09/2026)
+  base_url: "https://publicationtool.jao.eu/core/api"
+  dataset: "finalComputation"
+  # Nur Netzelemente dieser Übertragungsnetzbetreiber (Schreibweise wie in den JAO-Daten)
+  tsos: ["50HERTZ", "AMPRION", "TENNETGMBH", "TRANSNETBW"]
+  # Höflicher Abruf laut JAO-Leitfaden: eine Anfrage nach der anderen, kurze Pause dazwischen
+  pause_seconds: 0.7
+  timeout_seconds: 330        # JAO bricht Anfragen nach 5 Minuten ab
+  max_retries: 4              # Wartezeiten 10 s, 20 s, 40 s, 80 s
+  take: 100000                # Obergrenze ab 19.11.2026 (JAO-Mitteilung vom 05.11.2026)
+  require_monitoring_received: true   # erst abrufen, wenn JAO "Received" meldet
+
+auswertung:
+  timezone: "Europe/Berlin"   # Geschäftstag = Mitternacht bis Mitternacht deutscher Zeit
+  schwelle_hoch: 0.80         # ab dieser Auslastung zählt eine Stunde als "hoch"
+  schwelle_ueberlast: 1.00    # ab dieser Auslastung zählt eine Stunde als "Überlast"
+  lookback_tage: 7            # so viele zurückliegende Tage werden auf Lücken geprüft
+
+pfade:
+  daily_dir: "data/interim/daily"
+  fetch_log: "data/interim/fetch_log.csv"
+  processed_dir: "data/processed"

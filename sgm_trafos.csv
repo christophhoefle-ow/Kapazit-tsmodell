@@ -1,0 +1,134 @@
+Name,EIC_Code,UENB,Imax_min_A,Imax_max_A,Imax_fix_A,U_primaer_kV,U_sekundaer_kV,R_Ohm,X_Ohm,B_uS,G_uS,Stufen_RAO,Winkel_Grad,Sym_Asym,du_Phase_Prozent,du_Winkel_Prozent,Kommentar_JAO,Umspannwerk,Typ
+TR Eula 220/400 401,11TD8T401EU12--E,50HERTZ,866.0,866.0,,400,231,0.668,51.462,-415.27,2.562,,,,1.385,0.0,,Eula,Kuppeltrafo
+TR Güstrow 220/400 405,11T0-0000-2256-5,50HERTZ,577.0,577.0,,400,231,0.703,64.88,-0.671,0.775,,,,1.231,0.0,,Güstrow,Kuppeltrafo
+TR Hamburg/Nord 220/400 405,11TD8T405NOR12-5,50HERTZ,650.0,650.0,,400,231,0.925,62.9265,-0.5687,0.7688,,,,1.231,0.0,,Hamburg/Nord,Kuppeltrafo
+TR Hamburg/Nord 220/400 406,11TD8T406NOR12-Y,50HERTZ,650.0,650.0,,400,231,0.925,62.9265,-0.5687,0.7688,,,,1.231,0.0,,Hamburg/Nord,Kuppeltrafo
+PST Hamburg/Ost 441,11T0-0000-1900-E,50HERTZ,1690.0,1690.0,,410,410,0.1,12.187,-0.902,1.1065,-10;10,90.0,Symmetrical,,1.069,,Hamburg/Ost,Phasenschieber
+PST Hamburg/Ost 442,11T0-0000-1901-B,50HERTZ,1690.0,1690.0,,410,410,0.1,12.187,-0.902,1.1065,-10;10,90.0,Symmetrical,,1.069,,Hamburg/Ost,Phasenschieber
+PST Hamburg/Ost 443,11T0-0000-1902-8,50HERTZ,1690.0,1690.0,,410,410,0.097,12.607,-0.159,0.696,-10;10,90.0,Symmetrical,,1.069,,Hamburg/Ost,Phasenschieber
+PST Hamburg/Ost 444,11T0-0000-1903-5,50HERTZ,1690.0,1690.0,,410,410,0.097,12.607,-0.159,0.696,-10;10,90.0,Symmetrical,,1.069,,Hamburg/Ost,Phasenschieber
+TR Lubmin 220/400 405,11T0-0000-0003-J,50HERTZ,650.0,650.0,,400,231,0.7375,67.022,-0.547,0.75,,,,1.231,0.0,,Lubmin,Kuppeltrafo
+TR Marzahn 220/400 401,11TD8T401MZA12-Q,50HERTZ,577.0,577.0,,400,231,0.506,40.429,-1.126,0.5437,,,,1.231,0.0,,Marzahn,Kuppeltrafo
+TR Marzahn 220/400 402,11TD8T402MZA12-I,50HERTZ,577.0,577.0,,400,231,0.506,40.429,-1.126,0.5437,,,,1.231,0.0,,Marzahn,Kuppeltrafo
+TR Neuenhagen 220/400 401,11TD8T401NHG12-N,50HERTZ,1215.0,1215.0,,380,231,0.3328,22.5167,-477.407,3.1252,,,,1.273,0.0,,Neuenhagen,Kuppeltrafo
+TR Neuenhagen 220/400 402,11TD8T402NHG12-F,50HERTZ,1215.0,1215.0,,380,231,0.3328,22.5167,-477.407,3.1252,,,,1.273,0.0,,Neuenhagen,Kuppeltrafo
+TR Pasewalk 220/400 404,11T0-0000-2086-3,50HERTZ,577.0,577.0,,400,231,0.703,64.88,-0.671,0.775,,,,1.231,0.0,,Pasewalk,Kuppeltrafo
+TR Pasewalk 220/400 405,11T0-0000-2087-0,50HERTZ,577.0,577.0,,400,231,0.917,63.193,-0.75,1.0,,,,1.231,0.0,,Pasewalk,Kuppeltrafo
+TR Remptendorf 220/400 401,11TD8T401RE12--J,50HERTZ,577.0,577.0,,400,231,0.917,63.193,-0.75,1.0,,,,1.231,0.0,,Remptendorf,Kuppeltrafo
+TR Remptendorf 220/400 402,11TD8T402RE12--B,50HERTZ,577.0,577.0,,400,231,0.917,63.193,-0.75,1.0,,,,1.231,0.0,,Remptendorf,Kuppeltrafo
+PST Röhrsdorf 441,11T0-0000-0011-L,50HERTZ,1690.0,1690.0,,410,410,0.1,12.187,-0.902,1.1065,-10;10,90.0,Symmetrical,,1.069,,Röhrsdorf,Phasenschieber
+PST Röhrsdorf 442,11T0-0000-0012-I,50HERTZ,1690.0,1690.0,,410,410,0.097,12.607,-0.159,0.696,-10;10,90.0,Symmetrical,,1.069,,Röhrsdorf,Phasenschieber
+TR Röhrsdorf 220/400 402,11TD8T402ROE12-T,50HERTZ,1215.0,1215.0,,380,231,0.3328,22.5167,-477.407,3.1252,,,,1.273,0.0,,Röhrsdorf,Kuppeltrafo
+TR Röhrsdorf 220/400 403,11TD8T403ROE12-T,50HERTZ,1215.0,1215.0,,380,231,0.3328,22.5167,-477.407,3.1252,,,,1.273,0.0,,Röhrsdorf,Kuppeltrafo
+TR Thyrow 220/400 401,11TD8T401THY12-2,50HERTZ,577.0,577.0,,400,231,0.917,63.193,-0.75,1.0,,,,1.231,0.0,,Thyrow,Kuppeltrafo
+PST Vierraden 441,11T0-0000-0013-F,50HERTZ,1690.0,1690.0,,410,410,0.1,12.187,-0.902,1.1065,-10;10,90.0,Symmetrical,,1.069,,Vierraden,Phasenschieber
+PST Vierraden 442,11T0-0000-2217-I,50HERTZ,1690.0,1690.0,,410,410,0.1,12.187,-0.902,1.107,-10;10,90.0,Symmetrical,,1.069,,Vierraden,Phasenschieber
+PST Vierraden 443,11T0-0000-0014-C,50HERTZ,1690.0,1690.0,,410,410,0.097,12.607,-0.159,0.696,-10;10,90.0,Symmetrical,,1.069,,Vierraden,Phasenschieber
+PST Vierraden 444,11T0-0000-2218-F,50HERTZ,1690.0,1690.0,,410,410,0.097,12.607,-0.159,0.696,-10;10,90.0,Symmetrical,,1.069,,Vierraden,Phasenschieber
+TR Vieselbach 220/400 402,11TD8T402VIB12-B,50HERTZ,577.0,577.0,,400,231,0.917,63.193,-0.75,1.0,,,,1.231,0.0,,Vieselbach,Kuppeltrafo
+TR Vieselbach 220/400 403,11TD8T403VIB12-B,50HERTZ,577.0,577.0,,400,231,0.917,63.193,-0.75,1.0,,,,1.231,0.0,,Vieselbach,Kuppeltrafo
+TR Weida 220/400 402,11T0-0000-2210-2,50HERTZ,577.0,577.0,,400,231,0.917,63.193,-0.75,1.0,,,,1.231,0.0,,Weida,Kuppeltrafo
+TR Wolmirstedt 220/400 404,11TD8T404WOL12-H,50HERTZ,577.0,577.0,,400,231,0.917,63.193,-0.75,1.0,,,,1.231,0.0,,Wolmirstedt,Kuppeltrafo
+TR Wustermark 220/400 401,11TD8T401WU12-0Y,50HERTZ,577.0,577.0,,400,231,0.703,64.88,-0.671,0.775,,,,1.231,0.0,,Wustermark,Kuppeltrafo
+TR Wustermark 220/400 402,11TD8T402WU12--S,50HERTZ,577.0,577.0,,400,231,0.917,63.193,-0.75,1.0,,,,1.231,0.0,,Wustermark,Kuppeltrafo
+TR Brauweiler TR 421,11T0-0000-1249-6,AMPRION GMBH,,,2008.0,230,400,0.18,16.05,-3.6,4.3,,,,1.231,,,Brauweiler,Kuppeltrafo
+TR Buerstadt TR 421,11T0-0000-0571-9,AMPRION GMBH,,,1924.0,400,231,0.31,24.8,-8.6,1.8,,-60.0,ASYM,,1.389,,Buerstadt,Kuppeltrafo
+TR Buerstadt TR 423,11T0-0000-2477-L,AMPRION GMBH,,,1807.0,230,400,0.24,16.84,-45.0,6.0,,,,,,,Buerstadt,Kuppeltrafo
+TR Buescherhof TR 421,11T0-0000-0575-Y,AMPRION GMBH,,,1924.0,240,400,0.24,17.28,-6.4,5.3,,,,1.231,,,Buescherhof,Kuppeltrafo
+TR Dauersberg TR 421,11T0-0000-0589-I,AMPRION GMBH,,,1924.0,400,231,0.33,24.8,-6.9,1.9,,60.0,ASYM,,1.385,,Dauersberg,Kuppeltrafo
+TR Dauersberg TR 422,11T0-0000-1251-Q,AMPRION GMBH,,,1924.0,400,231,0.23,23.81,-3.0,0.9,,60.0,ASYM,,1.389,,Dauersberg,Kuppeltrafo
+TR Eiberg TR 421,11T0-0000-0595-Q,AMPRION GMBH,,,1924.0,240,400,0.24,17.28,-6.4,5.3,,,,1.231,,,Eiberg,Kuppeltrafo
+TR Ensdorf TR 421,11T0-0000-0606-H,AMPRION GMBH,,,2008.0,230,400,0.18,16.05,-3.6,4.3,,,,1.231,,,Ensdorf,Kuppeltrafo
+TR Gersteinwerk TR 421,11T0-0000-0614-J,AMPRION GMBH,,,2008.0,230,400,0.24,16.74,-5.4,3.0,,,,1.231,,,Gersteinwerk,Kuppeltrafo
+TR Gersteinwerk TR 422,11T0-0000-0615-G,AMPRION GMBH,,,2008.0,230,400,0.12,15.78,-5.4,1.6,,,,1.231,,,Gersteinwerk,Kuppeltrafo
+TR Gronau TR 441 E,11T0-0000-0620-R,AMPRION GMBH,,,2165.0,400,400,0.13,3.31,-6.2,2.9,-10; 10,90.0,ASYM,1.283,1.111,,Gronau,Kuppeltrafo
+TR Hanekenfaehr TR 421,11T0-0000-1278-Y,AMPRION GMBH,,,2008.0,230,400,0.23,16.48,-11.0,5.2,,,,1.231,,,Hanekenfaehr,Kuppeltrafo
+TR Hanekenfaher TR 441 E,11T0-0000-2122-Y,AMPRION GMBH,,,99999.0,400,400,0.08,11.17,-3.1,0.7,,90.0,SYMM,1.466,,,Hanekenfaehr,Kuppeltrafo
+TR Hanekenfaher TR 442 E,11T0-0000-2123-V,AMPRION GMBH,,,3078.0,400,400,0.13,3.31,-6.2,2.1,,90.0,SYMM,1.466,,,Hanekenfaehr,Kuppeltrafo
+TR Hattingen TR 421,11T0-0000-0646-1,AMPRION GMBH,,,2008.0,230,400,0.24,16.66,-37.3,3.4,,,,1.257,,,Hattingen,Kuppeltrafo
+TR Herbertingen TR 421,11T0-0000-1881-L,AMPRION GMBH,,,1924.0,400,231,0.33,24.8,-6.9,1.9,,60.0,ASYM,,1.385,,Herbertingen,Kuppeltrafo
+TR Kusenhorst TR 421,11T0-0000-0683-V,AMPRION GMBH,,,2008.0,230,400,0.21,16.22,-17.2,5.7,,,,1.231,,,Kusenhorst,Kuppeltrafo
+TR Niederrhein TR 421,11T0-0000-0754-Z,AMPRION GMBH,,,1924.0,400,231,0.33,24.8,-6.9,1.9,,60.0,ASYM,,1.385,,Niederrhein,Kuppeltrafo
+TR Niederstedem TR 421,11T0-0000-0758-N,AMPRION GMBH,,,1924.0,400,231,0.33,24.8,-6.9,1.9,,-60.0,ASYM,,1.385,,Niederstedem,Kuppeltrafo
+TR Niederstedem TR 422,11T0-0000-0759-K,AMPRION GMBH,,,1924.0,400,231,0.33,24.8,-6.9,1.9,,-60.0,ASYM,,1.385,,Niederstedem,Kuppeltrafo
+TR Niederstedem TR 423,11T0-0000-0760-6,AMPRION GMBH,,,1155.0,400,231,0.46,45.18,-1.6,0.5,,-60.0,ASYM,,0.689,,Niederstedem,Kuppeltrafo
+TR Oberzier TR 442 E,11T0-0000-2133-R,AMPRION GMBH,,,3078.0,400,400,0.08,9.0,-3.4,0.7,-5; 5,90.0,SYMM,,0.59,,Oberzier,Kuppeltrafo
+TR Opladen TR 421,11T0-0000-0796-D,AMPRION GMBH,,,1924.0,240,400,0.24,17.28,-39.1,6.1,,,,1.231,,,Opladen,Kuppeltrafo
+TR Opladen TR 422,11T0-0000-1674-Q,AMPRION GMBH,,,2008.0,230,400,0.18,16.05,-3.6,4.3,,,,1.231,,,Opladen,Kuppeltrafo
+TR Rommerskirchen TR 421,11T0-0000-0833-4,AMPRION GMBH,,,1924.0,400,231,0.33,24.8,-6.9,1.9,,60.0,ASYM,,1.385,,Rommerskirchen,Kuppeltrafo
+TR Sechtem TR 421,11T0-0000-0847-P,AMPRION GMBH,,,2008.0,230,400,0.18,16.05,-3.6,4.3,,,,1.231,,,Sechtem,Kuppeltrafo
+TR Siegburg TR 421,11T0-0000-2071-M,AMPRION GMBH,,,2008.0,230,400,0.18,16.05,-3.6,4.3,,,,1.231,,,Siegburg,Kuppeltrafo
+TR St. Peter TR 422,11T0-0000-1348-4,AMPRION GMBH,,,1924.0,400,231,0.33,24.8,-6.9,1.9,,60.0,ASYM,,1.385,,St. Peter,Kuppeltrafo
+TR St. Peter TR 423,11T0-0000-0858-I,AMPRION GMBH,,,1924.0,400,231,0.33,24.8,-6.9,1.9,,60.0,ASYM,,1.385,,St. Peter,Kuppeltrafo
+TR Tiengen TR 421,11T0-0000-0859-F,AMPRION GMBH,,,1271.0,400,231,0.45,24.74,-1.0,1.6,,-60.0,ASYM,,1.385,,Tiengen,Kuppeltrafo
+TR Uchtelfangen TR 421,11T0-0000-0862-W,AMPRION GMBH,,,1924.0,400,231,0.33,24.8,-6.9,1.9,,-60.0,ASYM,,1.385,,Uchtelfangen,Kuppeltrafo
+TR Urberach TR 421,11T0-0000-0874-M,AMPRION GMBH,,,1924.0,400,231,0.33,24.8,-6.9,1.9,,-60.0,ASYM,,1.385,,Urberach,Kuppeltrafo
+TR Urberach TR 422,11T0-0000-0875-J,AMPRION GMBH,,,1924.0,400,231,0.33,24.8,-6.9,1.9,,-60.0,ASYM,,1.385,,Urberach,Kuppeltrafo
+TR Utfort TR 421,11T0-0000-0878-A,AMPRION GMBH,,,1924.0,400,231,0.33,24.8,-6.9,1.9,,60.0,ASYM,,1.385,,Utfort,Kuppeltrafo
+TR Utfort TR 422,11T0-0000-0879-7,AMPRION GMBH,,,1924.0,400,231,0.33,24.8,-6.9,1.9,,60.0,ASYM,,1.385,,Utfort,Kuppeltrafo
+TR Voehringen TR 421,11T0-0000-0884-I,AMPRION GMBH,,,1924.0,400,231,0.23,23.81,-3.0,0.9,,-60.0,ASYM,,1.389,,Voehringen,Kuppeltrafo
+TR Walsum TR 421,11T0-0000-1352-I,AMPRION GMBH,,,2008.0,230,400,0.18,16.05,-3.6,4.3,,,,1.231,,,Walsum,Kuppeltrafo
+TR Wehrendorf TR 421,11T0-0000-0893-H,AMPRION GMBH,,,1924.0,400,231,0.33,24.8,-6.9,1.9,,60.0,ASYM,,1.385,,Wehrendorf,Kuppeltrafo
+TR Weissenthurm TR 421,11T0-0000-0904-8,AMPRION GMBH,,,1924.0,400,231,0.33,24.8,-6.9,1.9,,60.0,ASYM,,1.385,,Weissenthurm,Kuppeltrafo
+TR Weissenthurm TR 422,11T0-0000-2547-S,AMPRION GMBH,,,1807.0,230,400,0.247,16.838,-45.0,6.0,,,,,,,Weissenthurm,Kuppeltrafo
+TR Westerkappeln TR 421,11T0-0000-0914-4,AMPRION GMBH,,,2008.0,230,400,0.23,16.48,-28.0,4.6,,,,1.231,,,Westerkappeln,Kuppeltrafo
+TR Audorf/S T421,11TD2T0000000142,TENNETGMBH,,,811.0,380,220,0.48,46.61,-0.61,0.49,,,,1.111,,,Audorf/S,Kuppeltrafo
+TR Audorf/S T422,11T0-0000-0019-Y,TENNETGMBH,,,811.0,380,220,0.42,45.94,-0.3,0.51,,,,1.111,,,Audorf/S,Kuppeltrafo
+TR Bechterdissen T423,11TD2T000000245K,TENNETGMBH,,,721.0,380,220,0.79,61.04,-0.5,0.89,,,,1.231,,,Bechterdissen,Kuppeltrafo
+TR Bechterdissen T424,11TD2T000000246I,TENNETGMBH,,,721.0,380,220,0.79,60.92,-0.63,0.81,,,,1.231,,,Bechterdissen,Kuppeltrafo
+TR Buettel 441,11TD2T000000208Q,TENNETGMBH,,,2061.0,380,220,0.58,58.42,-2.03,1.17,,,,1.0,,,Buettel,Kuppeltrafo
+TR Buettel 442,11TD2T000000209O,TENNETGMBH,,,2061.0,380,220,0.58,58.39,-1.9,1.19,,,,1.0,,,Buettel,Kuppeltrafo
+TR Conneforde/O T422,11TD2T000000033Z,TENNETGMBH,,,631.0,380,220,1.01,65.36,-0.51,0.74,,,,1.231,,,Conneforde/O,Kuppeltrafo
+TR Conneforde/O T423,11T0-0000-1608-5,TENNETGMBH,,,811.0,380,220,0.41,45.9,-7.97,0.48,,,,1.111,,,Conneforde/O,Kuppeltrafo
+PST Diele T441,11TD2T000000035V,TENNETGMBH,,,1870.0,380,380,0.11,12.32,-2.44,0.96,-10;10,90.0,Symmetrical,,1.271,"Connected to the line ""Conneforde - Diele rot"" (EIC: 11TD2L0000000471)",Diele,Phasenschieber
+PST Diele T442,11TD2T000000036T,TENNETGMBH,,,1870.0,380,380,0.11,12.32,-2.45,0.94,-10;10,90.0,Symmetrical,,1.271,"Connected to the line ""Conneforde - Diele weiss"" (EIC: 11TD2L000000049Y)",Diele,Phasenschieber
+TR Diele T1,11TD2T000000219L,TENNETGMBH,,,1177.0,380,220,0.86,53.55,-0.62,0.93,,,,1.304,,,Diele,Kuppeltrafo
+TR Doerpen/W T441,11TD2T000000229I,TENNETGMBH,,,1734.0,380,380,0.61,42.11,-0.68,1.18,,,,1.316,,Transformer at converter station connected to offshore windfarm,Doerpen/W,Kuppeltrafo
+TR Doerpen/W T442,11TD2T000000230X,TENNETGMBH,,,1734.0,380,380,0.61,41.94,-0.67,1.18,,,,1.316,,Transformer at converter station connected to offshore windfarm,Doerpen/W,Kuppeltrafo
+TR Doerpen/W T443,11TD2T000000227M,TENNETGMBH,,,1955.0,380,380,0.6,42.9,-0.67,1.16,,,,1.389,,Transformer at converter station connected to offshore windfarm,Doerpen/W,Kuppeltrafo
+TR Doerpen/W T444,11TD2T000000228K,TENNETGMBH,,,1955.0,380,380,1.37,43.08,-0.67,1.16,,,,1.389,,Transformer at converter station connected to offshore windfarm,Doerpen/W,Kuppeltrafo
+TR Emden/O T425,11T0-0000-0070-0,TENNETGMBH,,,811.0,380,220,0.42,45.62,-0.32,0.5,,,,1.111,,,Emden/O,Kuppeltrafo
+TR Emden/O T428,11T0-0000-1589-C,TENNETGMBH,,,811.0,380,220,0.42,45.87,-4.31,0.47,,,,1.111,,,Emden/O,Kuppeltrafo
+TR Fedderwarden T421,11TD2T000000129M,TENNETGMBH,,,811.0,380,220,0.52,47.07,-0.41,0.57,,,,1.111,,,Fedderwarden,Kuppeltrafo
+TR Fedderwarden T422,11TD2T0000001300,TENNETGMBH,,,811.0,380,220,0.52,47.11,-0.65,0.54,,,,1.111,,,Fedderwarden,Kuppeltrafo
+TR Grosskrotzenburg T421,11TD2T000000070T,TENNETGMBH,,,1082.0,380,220,0.71,51.2,-4.88,1.93,,,,1.385,,,Grosskrotzenburg,Kuppeltrafo
+TR Grosskrotzenburg T422,11TD2T000000071R,TENNETGMBH,,,528.0,380,220,1.22,59.14,-9.54,1.71,,,,2.0,,,Grosskrotzenburg,Kuppeltrafo
+TR Grosskrotzenburg T423,11TD2T000000072P,TENNETGMBH,,,1082.0,380,220,0.71,51.46,-6.82,1.94,,,,1.385,,,Grosskrotzenburg,Kuppeltrafo
+TR Irsching T421,11TD2T000000096B,TENNETGMBH,,,866.0,380,220,0.72,51.52,-1.3,1.35,,,,1.231,,,Irsching,Kuppeltrafo
+PST Krempermarsch T441A,11T0-0000-2314-M,TENNETGMBH,,,2399.0,380,380,0.1,11.98,-2.08,1.29,,90.0,Symmetrical,,1.271,"Connected to the lines ""Krempermarsch - Stade/W rot"" (EIC: 11T0-0000-2198-P) and ""Wilster/W - Krempermarsch rot"" (EIC: 11T0-0000-2199-M)",Krempermarsch,Phasenschieber
+PST Krempermarsch T441B,11T0-0000-2318-A,TENNETGMBH,,,2000.0,380,380,0.1,11.94,-2.4,1.24,,90.0,Symmetrical,,1.271,"Connected to the lines ""Krempermarsch - Stade/W rot"" (EIC: 11T0-0000-2198-P) and ""Wilster/W - Krempermarsch rot"" (EIC: 11T0-0000-2199-M)",Krempermarsch,Phasenschieber
+PST Krempermarsch T442A,11T0-0000-2320-U,TENNETGMBH,,,2399.0,380,380,0.1,11.91,-2.29,1.26,,90.0,Symmetrical,,1.271,"Connected to the lines ""Krempermarsch - Stade/W gelb"" (EIC: 11T0-0000-2192-6) and ""Wilster/W - Krempermarsch gelb"" (EIC: 11T0-0000-2191-9)",Krempermarsch,Phasenschieber
+PST Krempermarsch T442B,11T0-0000-2316-G,TENNETGMBH,,,2399.0,380,380,0.1,11.93,-2.29,1.26,,90.0,Symmetrical,,1.271,"Connected to the lines ""Krempermarsch - Stade/W gelb"" (EIC: 11T0-0000-2192-6) and ""Wilster/W - Krempermarsch gelb"" (EIC: 11T0-0000-2191-9)",Krempermarsch,Phasenschieber
+TR Landesbergen T422,11TD2T000000116V,TENNETGMBH,,,1082.0,380,220,0.66,49.86,-8.03,1.88,,,,1.385,,,Landesbergen,Kuppeltrafo
+TR Landesbergen T423,11TD2T000000117T,TENNETGMBH,,,523.0,380,220,1.1,65.45,-5.07,1.76,,,,2.022,,,Landesbergen,Kuppeltrafo
+TR Oberbachern T421,11TD2T000000143S,TENNETGMBH,,,926.0,380,220,0.64,49.17,-3.64,1.94,,,,1.231,,,Oberbachern,Kuppeltrafo
+TR Ottenhofen T426,11TD2T000000146M,TENNETGMBH,,,917.0,380,220,0.67,49.46,-4.93,1.8,,,,1.231,,,Ottenhofen,Kuppeltrafo
+TR Ottenhofen T427,11TD2T000000147K,TENNETGMBH,,,952.0,380,220,0.67,49.2,-6.83,2.03,,,,1.231,,,Ottenhofen,Kuppeltrafo
+TR Pleinting T421,11TD2T000000155L,TENNETGMBH,,,952.0,380,220,0.59,47.84,-5.67,1.97,,,,1.25,,,Pleinting,Kuppeltrafo
+TR Pleinting T422,11TD2T000000156J,TENNETGMBH,,,952.0,380,220,0.66,48.85,-6.47,1.93,,,,1.231,,,Pleinting,Kuppeltrafo
+TR Raitersaich T421,11TD2T000000160S,TENNETGMBH,,,926.0,380,220,0.68,50.37,-2.14,1.52,,,,1.245,,,Raitersaich,Kuppeltrafo
+TR Siems T421,11TD2T000000172L,TENNETGMBH,,,631.0,380,220,1.07,86.44,-0.74,0.65,,,,1.231,,,Siems,Kuppeltrafo
+TR Sottrum T421,11TD2T000000180M,TENNETGMBH,,,811.0,380,220,0.49,46.82,-0.57,0.5,,,,1.111,,,Sottrum,Kuppeltrafo
+TR Stade/W T421,11T0-0000-1686-G,TENNETGMBH,,,811.0,380,220,0.42,45.76,-8.68,0.49,,,,1.111,,,Stade/W,Kuppeltrafo
+TR Stade/W T422,11T0-0000-1687-D,TENNETGMBH,,,811.0,380,220,0.42,45.87,-7.16,0.46,,,,1.111,,,Stade/W,Kuppeltrafo
+TR Unterweser T421,11TD2T000000206U,TENNETGMBH,,,1122.0,380,220,0.51,24.0,-3.84,1.5,,,,1.385,,,Unterweser,Kuppeltrafo
+TR Wahle T421,11TD2T000000191H,TENNETGMBH,,,1082.0,380,220,0.71,49.86,-3.9,1.75,,,,1.385,,,Wahle,Kuppeltrafo
+TR Wahle T422,11TD2T000000192F,TENNETGMBH,,,1082.0,380,220,0.62,52.26,-4.92,1.84,,,,1.4,,,Wahle,Kuppeltrafo
+TR Wuergassen T421,11TD2T0000001975,TENNETGMBH,,,509.0,380,220,1.32,60.59,-12.82,1.82,,,,2.011,,,Wuergassen,Kuppeltrafo
+TR Wuergassen T423,11T0-0000-2102-5,TENNETGMBH,,,405.0,380,220,1.19,101.01,-0.47,0.54,,,,1.231,,,Wuergassen,Kuppeltrafo
+PST Wuergau T441A,11T0-0000-1915-W,TENNETGMBH,,,2399.0,380,380,0.1,11.98,-2.3,1.26,,90.0,Symmetrical,,1.271,"Connected to the line ""Redwitz - Wuergau 436"" (EIC: 11TD2L000000255V)",Wuergau,Phasenschieber
+PST Wuergau T441B,11T0-0000-1916-T,TENNETGMBH,,,2399.0,380,380,0.1,11.97,-2.3,1.25,,90.0,Symmetrical,,1.271,"Connected to the line ""Redwitz - Wuergau 436"" (EIC: 11TD2L000000255V)",Wuergau,Phasenschieber
+PST Wuergau T442A,11T0-0000-1917-Q,TENNETGMBH,,,2399.0,380,380,0.1,11.97,-2.3,1.25,,90.0,Symmetrical,,1.271,"Connected to the line ""Redwitz - Wuergau 457"" (EIC: 11T0-0000-1906-X)",Wuergau,Phasenschieber
+PST Wuergau T442B,11T0-0000-1918-N,TENNETGMBH,,,2399.0,380,380,0.1,12.03,-2.29,1.27,,90.0,Symmetrical,,1.271,"Connected to the line ""Redwitz - Wuergau 457"" (EIC: 11T0-0000-1906-X)",Wuergau,Phasenschieber
+PST / 380-220kV / Buers / Trafo 37,11T0-0000-0082-R,TRANSNETBW,,,634.0,380,220,0.21,19.32,-11.21,3.45,-17;17,90.0,Asymmetrical,1.14,1.794,,Buers,Phasenschieber
+TR / 380-220kV / Buers / Trafo 31,11T0-0000-0091-Q,TRANSNETBW,,,499.0,380,220,0.99,83.23,-3.04,0.76,,0.0,Symmetrical,1.154,,,Buers,Kuppeltrafo
+TR / 380-220kV / Buers / Trafo 32,11T0-0000-0092-N,TRANSNETBW,,,499.0,380,220,0.98,83.41,-3.51,0.75,,0.0,Symmetrical,1.154,,,Buers,Kuppeltrafo
+TR / 380-220kV / Buers / Trafo 33,11T0-0000-0093-K,TRANSNETBW,,,499.0,380,220,1.15,81.54,-2.25,0.74,,0.0,Symmetrical,1.154,,,Buers,Kuppeltrafo
+TR / 380-220kV / Buers / Trafo 34,11T0-0000-0094-H,TRANSNETBW,,,499.0,380,220,1.19,81.21,-2.5,0.63,,0.0,Symmetrical,1.154,,,Buers,Kuppeltrafo
+TR / 380-220kV / Daxlanden / Trafo 401,11TD400000023-T9,TRANSNETBW,,,1443.0,380,220,0.25,24.64,-2.27,1.06,,0.0,Symmetrical,1.389,,,Daxlanden,Kuppeltrafo
+TR / 380-220kV / Daxlanden / Trafo 402,11TD400000028-TQ,TRANSNETBW,,,1443.0,380,220,0.34,24.16,-7.58,1.61,,0.0,Symmetrical,1.444,,,Daxlanden,Kuppeltrafo
+TR / 380-220kV / Eichstetten / Trafo 401,11TD400000041-T7,TRANSNETBW,,,1443.0,380,220,0.24,24.37,-2.05,1.07,,0.0,Symmetrical,1.389,,,Eichstetten,Kuppeltrafo
+TR / 380-220kV / Kuehmoos Trafo 401,12T-0000000591-H,TRANSNETBW,,,953.0,380,220,0.4,24.48,-10.64,1.32,-4;6,-120.0,Asymmetrical,1.385,,,Kuehmoos,Kuppeltrafo
+TR / 380-220kV / Neurott / Trafo 401,11TD400000125-TW,TRANSNETBW,,,1506.0,220,380,0.19,8.13,-7.91,3.52,,0.0,Symmetrical,1.231,,,Neurott,Kuppeltrafo
+TR / 380-220kV / Neurott / Trafo 402,11TD400000127-TO,TRANSNETBW,,,953.0,380,220,0.71,24.24,-3.23,1.47,,0.0,Symmetrical,1.385,,,Neurott,Kuppeltrafo
+TR / 380-220kV / Pulverdingen / Trafo 323,11TD400000144-TQ,TRANSNETBW,,,1506.0,220,380,0.18,10.23,-2.09,1.92,,0.0,Symmetrical,1.231,,,Pulverdingen,Kuppeltrafo

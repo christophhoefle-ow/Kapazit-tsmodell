@@ -1,0 +1,49 @@
+name: JAO Static Grid Model - neue Release prüfen
+
+# Das SGM erscheint halbjährlich (März/September). Dieser Job lädt NICHTS herunter, er legt nur ein Issue an,
+# damit ein Mensch die neue Release prüft und übernimmt (Spalten oder Schreibweisen können sich ändern).
+on:
+  schedule:
+    - cron: "0 6 1 * *"           # am 1. jedes Monats
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Auf neue Release prüfen
+        id: check
+        run: python scripts/check_sgm_release.py
+
+      - name: Issue anlegen (falls neu und noch nicht gemeldet)
+        if: steps.check.outputs.new_release == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LABEL: ${{ steps.check.outputs.label }}
+          URL: ${{ steps.check.outputs.url }}
+        run: |
+          TITLE="Neues JAO Static Grid Model: $LABEL"
+          EXISTING=$(gh issue list --state open --search "\"$TITLE\" in:title" --json number --jq length)
+          if [ "$EXISTING" != "0" ]; then echo "Issue existiert bereits"; exit 0; fi
+          gh issue create --title "$TITLE" --body "JAO hat eine neue Release veröffentlicht: $URL
+
+          Vorgehen (siehe docs/BETRIEB.md, Abschnitt Netzmodell):
+          1. ZIP herunterladen und Excel-Datei ablegen.
+          2. Stammdaten-CSV erzeugen (scripts/ingest_sgm.py, noch offen) und prüfen: python scripts/validate_sgm.py
+          3. python scripts/derive_umspannwerke.py und python scripts/estimate_coordinates.py (Prüfbericht data/manual/koordinaten_pruefbericht.csv lesen)
+          4. data/manual/sgm_release.txt auf die neue Release setzen.
+          5. python scripts/build_processed.py und Modell neu bauen, python scripts/check_model.py ausführen.
+          6. Namen und EIC-Änderungen mit alias_jao_sgm.csv abgleichen."
